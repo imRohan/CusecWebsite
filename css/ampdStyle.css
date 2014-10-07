@@ -1,0 +1,182 @@
+/*!
+ *Rohan Ursula
+ */
+
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    .bigYear {
+    font-family: 'Montserrat', sans-serif;
+   
+    font-weight: 700;
+    font-size: 180px;
+    position:fixed;
+     bottom:-75px;
+     right:-30px;
+   
+
+}
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    .bigYear {
+    font-family: 'Montserrat', sans-serif;
+   
+    font-weight: 700;
+    font-size: 80px;
+    position:fixed;
+     bottom:-75px;
+     right:-30px;
+   
+
+}
+    }
+@media screen and (max-width: 767px) { /* screen size until 500px */
+    .bigYear {
+    visibility: hidden;
+   
+
+}
+    }
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+    
+}
+.subtext{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#fff;
+    
+}
+
+.full {
+    
+    background-image:url("http://i.imgur.com/TR6ByaZ.jpg");
+    background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logo{
+    display: block;
+    float:left;
+    margin-top:20px;
+    margin-right: 30px;
+    width: 253px;
+    height:160px;
+    background: url("http://i.imgur.com/B0qUTWD.png") no-repeat ;
+    background-size: 253px 160px;   
+}
+
+h1 {
+ font-family: 'Roboto', sans-serif;   
+ font-weight: 100;
+ font-size:100px;
+ color:#fff;
+}
+h2{
+ font-family: 'Roboto', sans-serif;   
+ font-weight: 100;
+ font-size:80px;
+ color:#fff;   
+}
+h3{
+    margin-top: 50px;
+   font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+ font-size:30px;
+ color:#fff;   
+}
+
+a:link {
+    font-family: 'Roboto', sans-serif;   
+    text-decoration: none;
+    color:black;
+    
+}
+
+a:visited {
+    font-family: 'Roboto', sans-serif;   
+    text-decoration: none;
+        color:black;
+
+   
+}
+
+a:hover {
+    font-family: 'Roboto', sans-serif;   
+    text-decoration: none;
+        color:#999;
+
+   
+}
+
+a:active {
+    font-family: 'Roboto', sans-serif;   
+    text-decoration: none;
+        color:black;
+
+    
+}
+
+
+
+
+#vertAlign {
+    
+    margin-top:-10px;
+}
+
+
+
+.fa-angle-right {
+    color:#ce301b;
+}
+
+a#signin {
+    text-decoration: none;
+    color: black;
+}
+
+.bigYear {
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-weight: 700;
+    font-size: 180px;
+    position:fixed;
+     bottom:-75px;
+     right:-30px;
+   
+
+}
+
+
+.previous {
+    float:left;
+}
+.greyText{
+ color:#999;   
+}
+
+.next {
+    float:right;
+}
+
+.subtext2 {
+   font-family: 'Roboto', sans-serif;   
+ font-weight: 200;
+ font-size:30px;
+ color:#fff;
+}
+
+.itemList a {
+    font-family: 'Montserrat', sans-serif;
+    color:#ed5856;
+    font-weight: 700;
+    font-size: 20px;
+   
+}
