@@ -47,19 +47,19 @@ body {
 
 @keyframes animatedBackground {
 			from { background-position: 0 0; }
-			to { background-position: 100% 0; }
+			to { background-position: -1800px 0; }
 		}
 		@-webkit-keyframes animatedBackground {
 			from { background-position: 0 0; }
-			to { background-position: 100% 0; }
+			to { background-position: -1800px 0; }
 		}
 		@-ms-keyframes animatedBackground {
 			from { background-position: 0 0; }
-			to { background-position: 100% 0; }
+			to { background-position: -1800px 0; }
 		}
 		@-moz-keyframes animatedBackground {
 			from { background-position: 0 0; }
-			to { background-position: 100% 0; }
+			to { background-position: -1800px 0; }
 		}
 
 
@@ -108,12 +108,21 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    animation: animatedBackground 10s linear infinite;
-			-ms-animation: animatedBackground 10s linear infinite;
-			-moz-animation: animatedBackground 10s linear infinite;
-			-webkit-animation: animatedBackground 10s linear infinite;
+    animation: animatedBackground 100s linear infinite;
+			-ms-animation: animatedBackground 100s linear infinite;
+			-moz-animation: animatedBackground 100s linear infinite;
+			-webkit-animation: animatedBackground 100s linear infinite;
 	}
-
+#madeby{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 10px;
+    color:#fff;
+    position: fixed;
+left: 7px;
+bottom: 5px;
+    
+}
 .subtext{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
