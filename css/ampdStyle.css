@@ -123,6 +123,16 @@ left: 7px;
 bottom: 5px;
     
 }
+#shadow{
+position:absolute;
+    float:right;
+   margin-top:-90px;
+    margin-left:790px;
+    width: 198px;
+    height:1014px;
+    background: url("http://i.imgur.com/0JUgZ44.png") no-repeat ;
+    background-size: 198px 1014px;   
+}
 .subtext{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
