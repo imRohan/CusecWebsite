@@ -1,3 +1,11 @@
 #Cusec 2015 Website
 ---
-Built using Bootstrap by Rohan
+###About
+
+Built using Bootstrap by Rohan.
+
+###Features
+- Responsive 
+- Animated background
+
+![](http://i.imgur.com/ppkPcds.png)
